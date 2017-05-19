@@ -1,0 +1,26 @@
+#ifndef BLCOKING_DISK_H
+#define BLOCKING_DISK_H
+
+#include "simple_disk.H"
+#include "scheduler.H"
+
+
+extern Scheduler* SYSTEM_SCHEDULER;
+
+class BlockingDisk : public SimpleDisk{
+	public:
+	// override the original read and write operation 
+//	virtual void read(unsigned long _block_no, char * _buf);
+	
+	//virtual void write(unsigned long _block_no, char * _buf);
+		
+	virtual void wait_until_ready();
+	
+        BlockingDisk(DISK_ID _disk_id, unsigned int _size):SimpleDisk(_disk_id,_size){}
+
+};
+
+#endif
+
+
+

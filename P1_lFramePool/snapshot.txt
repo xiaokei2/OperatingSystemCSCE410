@@ -1,0 +1,25 @@
+Î5Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Get frame : size
+512nested loop i:
+15Kernel ALLOCATED: 512Get frame : size
+512kernel get_frame - success
+kernel released - success
+kernel released - success
+it released:
+Get frame : size
+512<0>
+Testing is done. We will do nothing forever
+
